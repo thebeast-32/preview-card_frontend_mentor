@@ -81,7 +81,7 @@ body {
   color: var(--Slightly-transparent-white);
   text-transform: uppercase;
 }
-.stats h3 {
+.stats h2 {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 700;
   font-size: 25px;

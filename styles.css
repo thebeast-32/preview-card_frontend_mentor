@@ -19,7 +19,7 @@
 body {
   background-color: var(--very-dark-blue);
 }
-.container {
+.card-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,7 +54,7 @@ body {
   color: var(--Soft-violet);
 }
 
-.paragraph {
+.text {
   text-align: left;
   display: flex;
   justify-content: center;
@@ -81,7 +81,7 @@ body {
   color: var(--Slightly-transparent-white);
   text-transform: uppercase;
 }
-.stats h2 {
+.stats h3 {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 700;
   font-size: 25px;
@@ -103,19 +103,10 @@ body {
   border-radius: 0 10px 10px 0;
 }
 
-.attribution {
-  text-align: center;
-  color: var(--White);
-}
-.attribution a {
-  text-decoration: none;
-  color: lightcoral;
-}
-
 /* mobile design */
 
 @media (max-width: 850px) {
-  .container {
+  .card-container {
     flex-direction: column-reverse;
     min-height: 100vh;
     width: 100vw;
@@ -145,7 +136,7 @@ body {
     font-size: 1.5rem;
     margin: 35px 25px 0 25px;
   }
-  .paragraph {
+  .text {
     display: inline;
     text-align: center;
     margin: 25px 25px;
